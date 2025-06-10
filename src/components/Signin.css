@@ -1,0 +1,49 @@
+*{
+  color: black;
+}
+.div{
+  background-color: white;
+  width: 20rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 1rem;
+  gap: 0.2rem;
+  flex-direction: column;
+}
+.div input{
+  width: 100%;
+  height: 1.5rem;
+  margin-bottom: 0rem;
+  transition: 0.5s;
+}
+.div input:hover{
+  transform: scale(1.02);
+}
+.div p{
+  margin: 0;
+  font-size: 1rem;
+}
+.div h3{
+  margin: 0 0 1rem 0;
+  
+}
+.div label{
+  font-size: 1rem;
+}
+.div button{
+  width: 50%;
+  height: 2.5rem;
+  border: 0.1px;
+  border-radius: 1rem;
+  margin-left: 5rem;
+  margin-top: 0.8rem;
+  transition: 0.5s;
+}
+.div button:hover{
+  transform: scale(1.05);
+}
+.secondDiv{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
