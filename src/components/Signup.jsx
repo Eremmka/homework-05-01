@@ -1,6 +1,6 @@
 
 import { useRef, useState } from 'react';
-import './Signin.css';
+import styles from './style/SigninSignupForm.module.css';
 
 export default function Signup(){
   const formRef = useRef(null)
@@ -45,8 +45,8 @@ export default function Signup(){
     return Object.keys(newError).length === 0;
   }
   return(
-    <>
-      <form className='div'
+    <div>
+      <form className={styles.div}
         ref={formRef}
         onSubmit={handleSubmit}
         onChange={handleChange}
@@ -70,7 +70,7 @@ export default function Signup(){
           name='email'
         />
         <p>Пол</p>
-        <div className='secondDiv'>
+        <div className={styles.secondDiv}>
           <label><input
             type="radio"
             name='gender'
@@ -94,6 +94,6 @@ export default function Signup(){
         />{ error.passwordAgain && <span>Пароли не совпадают</span>}</label>
         <button>Отправить</button>
       </form>
-    </>
+    </div>
   )
 }
