@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './style/Input.css'
+import './Input.css'
 
 export default function Input() {
   const [config, setConfig] = useState({

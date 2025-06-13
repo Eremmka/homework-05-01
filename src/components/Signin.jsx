@@ -1,6 +1,6 @@
 
 import { useRef, useState } from 'react';
-import styles from './style/SigninSignupForm.module.css'
+import styles from './SigninSignupForm.module.css'
 
 export default function Signin (){
   const formRef = useRef(null)

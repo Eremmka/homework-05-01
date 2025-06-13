@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './style/Button.css'
+import './Button.css'
 
 export default function Button() {
   const [config, setConfig] = useState({
